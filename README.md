@@ -1,3 +1,8 @@
-# RefinedGitSettingsForUnity
-These git settings were refined during many months of work on one large project.<br />
-They are still work in progress.
+# EmptyDirCleaner
+
+The **Empty Dir Cleaner** lets you find and remove all empty folders in project.
+
+
+## License
+
+This project's license is available in the provided "[LICENSE.md](LICENSE.md)" file.
