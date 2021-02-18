@@ -1,0 +1,25 @@
+#options {
+	flex-shrink: 0;
+	flex-direction: Column;
+	margin: 2px 5px;
+}
+
+#optionsRemove {
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 3px;
+	align-items: stretch;
+}
+
+.SimpleButton {
+	flex-grow: 1;
+	height: 30px;
+	border-width: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	-unity-text-align: middle-center;
+}
+
+#optionsRemove > Button {
+	flex-basis: 50%;
+}
