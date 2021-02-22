@@ -6,6 +6,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEditor.ShortcutManagement;
 
 namespace Vverum.Tools.EmptyDirCleaner
 {
@@ -15,6 +16,7 @@ namespace Vverum.Tools.EmptyDirCleaner
 		private string projectPath;
 
 		[MenuItem("Tools/EmptyDirCleaner")]
+		[Shortcut("Window/EmptyDirCleaner", KeyCode.E, ShortcutModifiers.Action)]
 		public static void ShowWindow()
 		{
 			EmptyDirCleanerView window = GetWindow<EmptyDirCleanerView>();
