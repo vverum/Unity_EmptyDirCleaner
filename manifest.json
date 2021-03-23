@@ -1,6 +1,6 @@
 {
   "name": "com.vverum.emptydircleaner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "EmptyDirCleaner",
   "description": "Simple and easy tool to remove empty folders from your project.",
   "unity": "2019.3",
