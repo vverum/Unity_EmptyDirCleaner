@@ -119,7 +119,7 @@ namespace Vverum.Tools.EmptyDirCleaner
 
 		private void RemoveDirs(List<string> filesPath, out List<string> result)
 		{
-			AssetDatabase.StopAssetEditing(); 
+			AssetDatabase.StartAssetEditing();
 			result = new List<string>();
 			try
 			{
@@ -135,7 +135,7 @@ namespace Vverum.Tools.EmptyDirCleaner
 			catch { }
 			finally
 			{
-				AssetDatabase.StartAssetEditing();
+				AssetDatabase.StopAssetEditing();
 			}
 		}
 
