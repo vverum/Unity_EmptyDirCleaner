@@ -3,11 +3,27 @@
   "displayName": "EmptyDirCleaner",
   "version": "1.0.2",
   "unity": "2019.3",
+  "unityRelease": "0f6",
   "description": "Simple and easy tool to remove empty folders from your project.",
   "type": "tool",
-  "unityRelease": "0f6",
   "author": {
     "name": "Dawid Sobala",
-    "email": "vverum.com@gmail.com"
-  }
+    "email": "vverum.com@gmail.com",
+    "url": "https://github.com/vverum"
+  },
+  "files": [
+    "/CHANGELOG.md",
+    "/CHANGELOG.md.meta",
+    "/LICENSE.md",
+    "/LICENSE.md.meta",
+    "/package.json",
+    "/package.json.meta",
+    "/README.md",
+    "/README.md.meta",
+    "/Third Party Notices.md",
+    "/Third Party Notices.md.meta",
+    "/Editor",
+    "/Editor.meta",
+    "/Documentation~"
+  ]
 }
